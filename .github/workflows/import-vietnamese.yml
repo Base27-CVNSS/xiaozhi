@@ -1,13 +1,7 @@
 name: Nhập nền tảng XiaoZhi tiếng Việt
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
-  issues:
-    types:
-      - opened
 
 permissions:
   contents: write
